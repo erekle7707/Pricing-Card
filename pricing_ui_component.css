@@ -1,0 +1,585 @@
+/*
+	@name pricing_ui_component
+*/
+/* Only edit this if you know what you are doing! */
+body { margin: 0px; padding: 0px; font-family:"Arial"; overflow-x:hidden; }
+
+/* Only edit this if you know what you are doing! */
+img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
+
+/* Only edit this if you know what you are doing! */
+div { position: absolute; }
+
+#content-container { display: block; position: relative; width: 1440px;  margin-left: auto; margin-right: auto;  }
+
+#_bg__pricing_table_2 {
+	top: 0px;
+	left: 0px;
+	width: 1440px;
+	height: 1024px;
+	background:rgba(255,255,255,1);
+	
+}
+
+
+#shadow {
+	opacity:0.2;
+	top: 246px;
+	left: 1055px;
+	width: 313px;
+	height: 604px;
+	background:rgba(27.59,37.18,71.19,1);
+}
+
+#pricing_card_3 {
+	top: 174px;
+	left: 952px;
+	width: 400px;
+	height: 668px;
+	background: white
+
+}
+#icon {
+	top: 40px;
+	left: 40px;
+	width: 40px;
+	height: 40px;
+}
+#group {
+	top: 0px;
+	left: 0px;
+	width: 40px;
+	height: 40px;
+}
+
+#vector {
+	top: 0px;
+	left: 0px;
+	width: 40px;
+	height: 40px;
+}
+
+
+#vector_ek1 {
+	top: 3px;
+	left: 3px;
+	width: 33.33px;
+	height: 33.33px;
+}
+
+
+#title {
+	top: 40px;
+	left: 96px;
+	width: 317px;
+	height: 62px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: left;
+	line-height: 40px;
+	color:#0A0914;
+}
+
+#list_of_items {
+	top: 112px;
+	left: 40px;
+	width: 320px;
+	height: 292px;
+}
+
+#what_you_ll_get {
+	top: 0px;
+	left: 0px;
+	width: 174px;
+	height: 47px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 22px;
+	text-align: left;
+	color:#A9A9AA;
+}
+
+#list {
+	top: 56px;
+	left: 0px;
+	width: 320px;
+	height: 44px;
+}
+#bxs_check_circle__2__1 {
+	top: 0px;
+	left: 0px;
+	width: 24px;
+	height: 24px;
+}
+
+#vector_ek2 {
+	top: 2px;
+	left: 2px;
+	width: 20px;
+	height: 20px;
+}
+
+
+#_8_hours_usage_of_our_coworking_space {
+	top: 0px;
+	left: 32px;
+	width: 302px;
+	height: 57px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 18px;
+	text-align: left;
+	color:#34343E;
+}
+
+#list_ek1 {
+	top: 124px;
+	left: 0px;
+	width: 320px;
+	height: 24px;
+}
+#bxs_check_circle__2__1_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 24px;
+	height: 24px;
+}
+
+#vector_ek3 {
+	top: 2px;
+	left: 2px;
+	width: 20px;
+	height: 20px;
+}
+
+
+#access_to_all_our_rooms {
+	top: 0px;
+	left: 32px;
+	width: 302px;
+	height: 35px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 18px;
+	text-align: left;
+	color:#34343E;
+}
+
+#list_ek2 {
+	top: 172px;
+	left: 0px;
+	width: 320px;
+	height: 24px;
+}
+#bxs_check_circle__2__1_ek2 {
+	top: 0px;
+	left: 0px;
+	width: 24px;
+	height: 24px;
+}
+
+#vector_ek4 {
+	top: 2px;
+	left: 2px;
+	width: 20px;
+	height: 20px;
+}
+
+
+#dedicated_desk {
+	top: 0px;
+	left: 32px;
+	width: 302px;
+	height: 35px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 18px;
+	text-align: left;
+	color:#34343E;
+}
+
+#list_ek3 {
+	top: 220px;
+	left: 0px;
+	width: 320px;
+	height: 24px;
+}
+#bxs_check_circle__2__1_ek3 {
+	top: 0px;
+	left: 0px;
+	width: 24px;
+	height: 24px;
+}
+
+#vector_ek5 {
+	top: 2px;
+	left: 2px;
+	width: 20px;
+	height: 20px;
+}
+
+
+#free_business_address {
+	top: 0px;
+	left: 32px;
+	width: 302px;
+	height: 35px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 18px;
+	text-align: left;
+	color:#34343E;
+}
+
+#list_ek4 {
+	top: 268px;
+	left: 0px;
+	width: 320px;
+	height: 24px;
+}
+#bxs_check_circle__2__1_ek4 {
+	top: 0px;
+	left: 0px;
+	width: 24px;
+	height: 24px;
+}
+
+#vector_ek6 {
+	top: 2px;
+	left: 2px;
+	width: 20px;
+	height: 20px;
+}
+
+
+#free_lunch_1x_a_day {
+	top: 0px;
+	left: 32px;
+	width: 302px;
+	height: 35px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 18px;
+	text-align: left;
+	color:#34343E;
+}
+
+#primary_button {
+	top: 580px;
+	left: 24px;
+	width: 352px;
+	height: 64px;
+	background: #2E6434;
+}
+
+#button_label {
+	top: 12px;
+	left: -4px;
+	width: 368px;
+	height: 55px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 22px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 40px;
+	color:#FFFFFF;
+}
+
+
+#divider {
+	top: 436px;
+	left: 40px;
+	width: 320px;
+	height: 1px;
+	background:#A9A9AA;
+}
+
+
+#pricing {
+	top: 468px;
+	left: 40px;
+	width: 341px;
+	height: 52px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: left;
+	line-height: 40px;
+	color:#0B0914;
+}
+
+
+#shadow_ek1 {
+	opacity:0.2;
+	top: 246px;
+	left: 612px;
+	width: 313px;
+	height: 604px;
+	background:rgba(27.59,37.18,71.19,1);
+}
+
+#pricing_card_2 {
+	top: 174px;
+	left: 512px;
+	width: 400px;
+	height: 668px;
+	background-color: white;
+}
+#icon_ek1 {
+	top: 40px;
+	left: 40px;
+	width: 40px;
+	height: 40px;
+}
+#group_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 40px;
+	height: 40px;
+}
+
+#vector_ek7 {
+	top: 0px;
+	left: 0px;
+	width: 40px;
+	height: 40px;
+}
+
+
+#vector_ek8 {
+	top: 3px;
+	left: 3px;
+	width: 33.33px;
+	height: 33.33px;
+}
+
+
+#title_ek1 {
+	top: 40px;
+	left: 96px;
+	width: 317px;
+	height: 62px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: left;
+	line-height: 40px;
+	color:#0A0914;
+}
+
+#list_of_items_ek1 {
+	top: 112px;
+	left: 40px;
+	width: 320px;
+	height: 148px;
+}
+
+#what_you_ll_get_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 174px;
+	height: 47px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 22px;
+	text-align: left;
+	color:#A9A9AA;
+}
+
+#list_ek5 {
+	top: 56px;
+	left: 0px;
+	width: 320px;
+	height: 44px;
+}
+#bxs_check_circle__2__1_ek5 {
+	top: 0px;
+	left: 0px;
+	width: 24px;
+	height: 24px;
+}
+
+#vector_ek9 {
+	top: 2px;
+	left: 2px;
+	width: 20px;
+	height: 20px;
+}
+
+
+#_8_hours_usage_of_our_coworking_space_ek1 {
+	top: 0px;
+	left: 32px;
+	width: 302px;
+	height: 57px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 18px;
+	text-align: left;
+	color:#34343E;
+}
+
+#list_ek6 {
+	top: 124px;
+	left: 0px;
+	width: 320px;
+	height: 24px;
+}
+#bxs_check_circle__2__1_ek6 {
+	top: 0px;
+	left: 0px;
+	width: 24px;
+	height: 24px;
+}
+
+#vector_ek10 {
+	top: 2px;
+	left: 2px;
+	width: 20px;
+	height: 20px;
+}
+
+
+#access_to_all_our_rooms_ek1 {
+	top: 0px;
+	left: 32px;
+	width: 302px;
+	height: 35px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 18px;
+	text-align: left;
+	color:#34343E;
+}
+
+#primary_button_ek1 {
+	top: 580px;
+	left: 24px;
+	width: 352px;
+	height: 64px;
+	background: #2E6434;
+}
+
+#button_label_ek1 {
+	top: 12px;
+	left: -4px;
+	width: 368px;
+	height: 55px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 22px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 40px;
+	color:#FFFFFF;
+}
+
+
+#divider_ek1 {
+	top: 292px;
+	left: 40px;
+	width: 320px;
+	height: 1px;
+	background:#A9A9AA;
+}
+
+
+#pricing_ek1 {
+	top: 324px;
+	left: 40px;
+	width: 341px;
+	height: 52px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: left;
+	line-height: 40px;
+	color:#0B0914;
+}
+
+
+#shadow_ek2 {
+	opacity:0.2;
+	top: 246px;
+	left: 172px;
+	width: 313px;
+	height: 604px;
+	background:rgba(27.59,37.18,71.19,1);
+}
+
+#pricing_card_01 {
+	top: 174px;
+	left: 72px;
+	width: 400px;
+	height: 668px;
+	background: #2E6434;
+border-radius: 20px;
+}
+
+#pexels_godisable_jacob_871495_removebg_preview_1 {
+	top: 260px;
+	left: -161px;
+	width: 612px;
+	height: 408px;
+}
+
+
+#title_ek2 {
+	top: 40px;
+	left: 40px;
+	width: 317px;
+	height: 118px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: left;
+	line-height: 48px;
+	color:#FFFFFF;
+}
+
+
+#choose_a_plan_and_get_onboard_in_minutes__then_get__100_credits_for_your_next_payment_ {
+	top: 160px;
+	left: 40px;
+	width: 334px;
+	height: 85px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 18px;
+	text-align: left;
+	line-height: 24px;
+	color:#FFFFFF;
+}
+
+#arrow_right_line_1 {
+	top: 256px;
+	left: 40px;
+	width: 40px;
+	height: 40px;
+}
+
+#vector_ek11 {
+	top: 0px;
+	left: 0px;
+	width: 40px;
+	height: 40px;
+}
+
+
+#vector_ek12 {
+	top: 7.04px;
+	left: 6.67px;
+	width: 26.67px;
+	height: 25.93px;
+}
+
+
+
+/* Add your custom CSS here */
